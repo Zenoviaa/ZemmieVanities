@@ -120,7 +120,10 @@ namespace ZemmieVanities.Content.Armors.CloakedWarrior
         public override void AddRecipes()
         {
             base.AddRecipes();
-         //   CreateRecipe().AddIngredient(ItemID.Silk, 10).AddTile(TileID.Loom).Register();
+            CreateRecipe()
+                .AddIngredient(ItemID.Silk, 10)
+                .AddIngredient(ItemID.Bone, 1)
+                .AddTile(TileID.Loom).Register();
         }
     }
 
@@ -135,7 +138,10 @@ namespace ZemmieVanities.Content.Armors.CloakedWarrior
         public override void AddRecipes()
         {
             base.AddRecipes();
-        //    CreateRecipe().AddIngredient(ItemID.Silk, 10).AddTile(TileID.Loom).Register();
+            CreateRecipe()
+                   .AddIngredient(ItemID.Silk, 10)
+                   .AddIngredient(ItemID.Bone, 1)
+                   .AddTile(TileID.Loom).Register();
         }
       
     }
@@ -152,7 +158,10 @@ namespace ZemmieVanities.Content.Armors.CloakedWarrior
         public override void AddRecipes()
         {
             base.AddRecipes();
-          //  CreateRecipe().AddIngredient(ItemID.Silk, 10).AddTile(TileID.Loom).Register();
+            CreateRecipe()
+                 .AddIngredient(ItemID.Silk, 10)
+                 .AddIngredient(ItemID.Bone, 1)
+                 .AddTile(TileID.Loom).Register();
         }
     }
 }
