@@ -1,3 +1,3 @@
-displayName = Zemmie&#39;s Vanities
+displayName = Zemmie's Vanities Pack
 author = Zenovia
-version = 0.1
+version = 1.0
